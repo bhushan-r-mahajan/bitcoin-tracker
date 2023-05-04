@@ -1,16 +1,19 @@
-# bitcoin_tracker
+# Bitcoin Tracker
 
-A new Flutter project.
+This is a simple application where a user can select a currency and view the latest bitcoin price for the selected currency.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Steps to run this application are as follows:-
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repo using the command below
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/bhushan-r-mahajan/bitcoin-tracker.git
+```
+2. After cloning create a .env file in your root folder.
+3. Add the code given below in that .env file. (The endpoints should not be exposed in a production application hence we use .env).
+```bash
+API_URL="https://api.coindesk.com/v1/bpi/currentprice.json"
+```
+4. Run the application using android/iOS simulator or on chrome for testing the applications on all device types.
